@@ -1,5 +1,5 @@
 {% set name = "svgelements" %}
-{% set version = "1.9.5" %}
+{% set version = "1.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/svgelements-{{ version }}.tar.gz
-  sha256: e192648ab7e07a67a355ce19b7f1d8a1497d62feca6debe3ddbd92d8617ef3be
+  sha256: 7c02ad6404cd3d1771fd50e40fbfc0550b0893933466f86a6eb815f3ba3f37f7
 
 build:
   noarch: python
